@@ -1,0 +1,23 @@
+.tiles__input {
+  position: relative;
+  margin-top: 30px;
+}
+
+.tiles__input--match {
+  color: var(--success-tile-color);
+}
+
+.tiles__input--nomatch {
+  color: var(--warning-tile-color);
+}
+
+input {
+  padding: 8px;
+  margin: 0;
+  font-weight: 900;
+}
+
+span {
+  position: absolute;
+  right: 8px;
+}

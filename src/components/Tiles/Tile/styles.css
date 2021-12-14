@@ -1,0 +1,28 @@
+.tile {
+  height: 40px;
+  width: 40px;
+  background-color: var(--main-tile-color);
+  color: var(--main-txt-color);
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.tile > p {
+  margin: 0;
+  height: fit-content;
+  font-weight: 700;
+}
+
+.tile--blocked { 
+  background-color: var(--warning-tile-color);
+  color: var(--main-txt-color);
+}
+
+.tile--start-again {
+  background-color: gray;
+}
+
+.tile--picked { 
+  background-color: var(--picked-tile-color);
+  color: var(--main-txt-color);
+}

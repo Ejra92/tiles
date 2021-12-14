@@ -1,0 +1,12 @@
+.tiles__options-buttons {
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  .tiles__options-buttons {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+}

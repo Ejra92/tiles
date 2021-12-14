@@ -1,0 +1,20 @@
+/* .tiles__options__buttons >  */
+button {
+  width: fit-content;
+  background-color: transparent;
+  border: none;
+  padding: 8px;
+  color: var(--main-txt-color);
+}
+
+/* .tiles__options__buttons >  */
+.button--selected {
+  background-color: var(--main-tile-color);
+  color: var(--main-txt-color);
+}
+
+/* .tiles__options__buttons >  */
+.button--warning {
+  background-color: var(--warning-tile-color);
+  color: var(--main-txt-color);
+}

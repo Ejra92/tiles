@@ -1,0 +1,23 @@
+.tiles {
+  position: relative;
+  width: fit-content;
+}
+
+@media screen and (min-width: 768px) {
+  .tiles {
+    display: flex;
+    align-items: flex-end;
+  }
+}
+
+.tiles__container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 8px;
+}
+
+@media screen and (min-width: 768px) {
+  .tiles__container {
+    margin-right: 30px;
+  }
+}
